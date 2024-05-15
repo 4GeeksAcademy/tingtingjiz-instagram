@@ -1,0 +1,96 @@
+body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+}
+
+.post {
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    padding: 25px;
+    align-items: center;
+    padding: 10px;
+
+} 
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    padding: 2px;
+    margin: 1px;
+
+}
+
+.header-left {
+    display: flex;
+    font-size: smaller;
+
+}
+
+.header-right {
+    margin-right: 4px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid lightgray;
+    height: 150px;
+    width: 340px;
+    padding: 5px;
+    text-align:justify;
+}
+
+.phrase {
+    font-size: 13px;
+    padding: 1px;
+}
+
+.left {
+    font-size: large;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+
+.icon {
+    margin: 2px;
+    font-size: x-large;
+    margin-right: 4px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 2px;
+}
+
+.name p {
+    margin: 0;
+    padding: 0;
+}
+
+.name h6{
+    margin: 0;
+    padding: 0;
+}
